@@ -1,0 +1,111 @@
+{
+	"info": {
+		"name": "Product APIs",
+		"_postman_id": "eb1b82c0-331c-005e-b64d-376c020276f6",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fetch Product Details GET Method API",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://fakestoreapi.com/products",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"products"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Product Details POST Method API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Google Pixel 4a\",\r\n    \"price\": 25000,\r\n    \"description\": \"Google Mid Range Phone\",\r\n    \"image\": \"https://i.pravatar.cc\",\r\n    \"category\": \"Mobiles\"\r\n}"
+				},
+				"url": {
+					"raw": "https://fakestoreapi.com/products",
+					"protocol": "https",
+					"host": [
+						"fakestoreapi",
+						"com"
+					],
+					"path": [
+						"products"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product Details PUT Method API",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Mens Cotton Shirt\",\r\n    \"category\": \"men's clothing\"\r\n}"
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/products/3",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"products",
+						"3"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product Details using ID ",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{BASE_URL}}/products/4",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"products",
+						"4"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

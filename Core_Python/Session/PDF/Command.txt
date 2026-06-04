@@ -1,0 +1,6 @@
+pip install conda
+conda uninstall -n base --all
+pip install pipreqs
+conda remove --name env_name --all((TO UN-INSTALL ALL LIBRARIES FROM requirements.txt))
+pip freeze > requirements.txt(TO GENERATE requirements.txt)
+pip install -r requirements.txt(TO INSTALL ALL LIBRARIES FROM requirements.txt)

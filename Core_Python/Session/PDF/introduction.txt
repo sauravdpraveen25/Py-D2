@@ -1,0 +1,133 @@
+activate root
+
+what 
+	guido van russum
+	Google
+	
+	compile time prog lang code   code->compile->execution>run
+								  .c/.cpp->.obj->.exe / .out
+								   .java ->.class->
+	interpreted prog lang
+
+		.py->line by line compilation and execution
+		
+		10 lines
+		
+		.pyc files (python compiled files)
+	
+why
+		Data Analytics,AI,ML,DL->data + training + data pre processing
+		
+			huge amount of computation
+			
+			Technologies libraries->support python
+									
+									build  C,C++
+		non technical
+		
+			easy to learn
+			
+			easy to understand
+			
+			easy to use
+		
+		
+Python
+	
+	interpreted prog lang (pop,oop)
+	
+	
+anaconda
+	
+	open source software dist.
+	
+	Libraries Repository
+	
+	IDEs ->spyder (console) ,jupyter notebook(web based)
+		
+		GUI
+		
+		Syntax suggestion
+		
+		project flow management
+		
+		project directory structure
+		
+	python pre-installed
+	
+
+pycharm
+
+	framework level project setup
+		
+		flask
+		
+		django
+		
+p1-X-10 mb-0.1-e1->python3 
+
+p2-Y-200 mb-0.1-e2->python3
+
+p3-X-50 mb-0.2-e3->python2
+
+environment - a folder of a project to manage
+			  the installed libraries + python version
+			  of that project
+
+
+conda env-Anaconda-300 libraries + python interpreter
+	
+	root environmentv by deafult provide by anaconda
+
+virtual env-Python-10 libraries + python interpreter
+
+python2->2019
+
+python3
+
+run-> python file_name.py
+
+datatype
+
+	string->character array-> {'A','s', 'i', 't'}
+	
+	integer->natural numbers->99,-32
+	
+	float->real numbers->45.56,-32.92
+	
+	boolean->True,False
+	
+	complex->3+2i
+
+python supports dynamic data type	
+
+int a=10;
+
+a=10
+
+int
+
+a="Yash"
+
+string
+
+a=99.77
+
+float
+
+a=True
+
+boolean
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
