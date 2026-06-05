@@ -1,8 +1,7 @@
-import sys
 import os
 
-filename = sys.argv[1]
-location = sys.argv[2]
+filename = input("Enter filename: ")
+location = input("Enter location: ")
 
 demo_path = os.path.join(location, filename)
 dummy_path = os.path.join(location, "dummy.txt")
